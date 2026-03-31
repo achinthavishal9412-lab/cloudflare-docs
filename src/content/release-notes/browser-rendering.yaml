@@ -3,6 +3,11 @@ link: "/browser-rendering/changelog/"
 productName: Browser Rendering
 productLink: "/browser-rendering/"
 entries:
+  - publish_date: "2026-04-02"
+    title: "Local development updates: headful mode and Chrome 126"
+    description: |-
+      * You can now run Chrome in visible (headful) mode during local development by setting `X_BROWSER_HEADFUL=true` before running `wrangler dev` or `vite dev`. This makes it easier to visually debug your browser automation scripts. This feature is experimental and may change without notice.
+      * Upgraded the Chrome version used during local development from Chrome 124 to Chrome 126, matching the version used in production. Included in [`miniflare@4.20260317.2`](https://github.com/cloudflare/workers-sdk/releases/tag/miniflare%404.20260317.2).
   - publish_date: "2026-03-23"
     title: "@cloudflare/playwright v1.2.0 released"
     description: |-
